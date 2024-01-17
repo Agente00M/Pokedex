@@ -1,0 +1,79 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+    overflow: auto;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+ul{
+    padding: 0;
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+    margin: 10px;
+}
+.barras {
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ccc;
+    display: block;
+    overflow: hidden;
+}
+.barras > span{
+    display: block;
+    height: 20px;
+    background-color: #47ED2D;
+    width: 50%;
+}
+.listastatus{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h3,h2{
+    display: inline-block;
+    margin: 5px;
+}
+h1{
+    text-align: center;
+}
+#informacoesPokemon{
+    margin: 0;
+    padding: 5px;
+}
+#informacoesPokemon > ol{
+    border-top: 2px black solid ;
+}
+.voltar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+.skill{
+    padding: 20px;
+    box-shadow:10px 10px 5px black;
+    font-size: 2rem;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
